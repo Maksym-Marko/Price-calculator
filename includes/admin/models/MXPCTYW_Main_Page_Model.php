@@ -41,6 +41,8 @@ class MXPCTYW_Main_Page_Model extends MXPCTYW_Model
 
 			foreach( $_POST['obj_price_calcs_elem'] as $key => $value ) {
 
+				$key = intval( $key );
+
 				$data['elements'][$key] = array();
 
 				$data['elements'][$key]['name'] = sanitize_text_field( $value['price_calc_element_name'] );
