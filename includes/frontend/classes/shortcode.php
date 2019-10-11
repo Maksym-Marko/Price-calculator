@@ -32,7 +32,7 @@ class MXPCTYW_Shortcode
 
 					<div class="mx-calc-wrap">
 						
-						<h3><?php echo $data['calc_name']; ?></h3>
+						<h3><?php echo esc_html_e( $data['calc_name'], 'mxpctyw-domain' ); ?></h3>
 
 						<div class="mx-calc-body">
 
@@ -42,19 +42,19 @@ class MXPCTYW_Shortcode
 								<div class="mx-calc-item">
 
 									<h4>
-										<?php echo $value['name']; ?>
-										<span><?php echo $value['item_price']; ?><?php echo $data['calc_currency']; ?> </span>/
-										<span><?php echo $value['item_name']; ?></span>
+										<?php echo esc_html_e( $value['name'], 'mxpctyw-domain' ); ?>
+										<span><?php echo esc_html_e( $value['item_price'], 'mxpctyw-domain' ); ?><?php echo esc_html_e( $data['calc_currency'], 'mxpctyw-domain' ); ?> </span>/
+										<span><?php echo esc_html_e( $value['item_name'], 'mxpctyw-domain' ); ?></span>
 									</h4>
 
 									<div class="mx-calc-item-progress">
 
-										<span><?php echo $value['desc']; ?></span>
+										<span><?php echo esc_html_e( $value['desc'], 'mxpctyw-domain' ); ?></span>
 
-										<input type="number" data-calc-item-price="<?php echo $value['item_price']; ?>" class="mx-calc-user-enter" />
+										<input type="number" data-calc-item-price="<?php echo esc_html_e( $value['item_price'], 'mxpctyw-domain' ); ?>" class="mx-calc-user-enter" />
 
 										<span>Цена: </span><span class="mx-calc-price-result">0</span>
-										<span><?php echo $data['calc_currency']; ?></span>
+										<span><?php echo esc_html_e( $data['calc_currency'], 'mxpctyw-domain' ); ?></span>
 
 									</div>
 									

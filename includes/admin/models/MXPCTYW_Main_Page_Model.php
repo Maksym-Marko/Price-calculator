@@ -45,7 +45,7 @@ class MXPCTYW_Main_Page_Model extends MXPCTYW_Model
 
 				$data['elements'][$key]['name'] = sanitize_text_field( $value['price_calc_element_name'] );
 
-				$data['elements'][$key]['desc'] = sanitize_text_field( $value['price_calc_element_desc'] );
+				$data['elements'][$key]['desc'] = sanitize_textarea_field( $value['price_calc_element_desc'] );
 
 				$data['elements'][$key]['item_name'] = sanitize_text_field( $value['price_calc_element_item_name'] );
 
