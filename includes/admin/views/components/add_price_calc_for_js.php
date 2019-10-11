@@ -27,7 +27,7 @@
 			<input type="text" name="mx_new_price_calc_item_name" class="mx_new_price_calc_item_name form-control mx-is_required" placeholder="Например: 1 м" />
 			
 			<small class="form-text text-dark">Цена *</small>
-			<input type="text" name="mx_new_price_calc_item_price" class="mx_new_price_calc_item_price form-control mx-is_required mx-is_coordinates" placeholder="Например: 7" />
+			<input type="number" step="0.01" name="mx_new_price_calc_item_price" class="mx_new_price_calc_item_price form-control mx-is_required mx-is_coordinates" placeholder="Например: 7" />
 			
 		</div>
 

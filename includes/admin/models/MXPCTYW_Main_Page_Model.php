@@ -35,6 +35,8 @@ class MXPCTYW_Main_Page_Model extends MXPCTYW_Model
 
 			$data['calc_name'] = sanitize_text_field( $_POST['calc_name'] );
 
+			$data['calc_currency'] = sanitize_text_field( $_POST['calc_currency'] );
+
 			$data['elements'] = array();
 
 			foreach( $_POST['obj_price_calcs_elem'] as $key => $value ) {

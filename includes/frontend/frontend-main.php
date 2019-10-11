@@ -25,6 +25,11 @@ class MXPCTYW_FrontEnd_Main
 
 		MXPCTYW_Enqueue_Scripts_Frontend::mxpctyw_register();
 
+		// create shortcode
+		mxpctyw_require_class_file_frontend( 'shortcode.php' );
+
+		MXPCTYW_Shortcode::create_shortcode();
+
 	}
 
 }

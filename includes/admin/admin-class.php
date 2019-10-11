@@ -73,7 +73,7 @@ class MXPCTYW_Admin_Main
 		// main menu item
 		MXPCTYW_Route::mxpctyw_get( 'MXPCTYW_Main_Page_Controller', 'index', '', [
 			'page_title' 	=> 'Калькуляток Цен',
-			'menu_title' 	=> 'Калькуляток',
+			'menu_title' 	=> 'Калькуляток Цен',
 			'dashicons' 	=> 'dashicons-buddicons-replies'
 		] );
 

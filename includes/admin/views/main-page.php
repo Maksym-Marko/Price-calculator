@@ -15,8 +15,17 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 		<div class="form-group">
 			<label for="mx_name_of_the_calc">Название Калькулятора <span class="text-danger">*</span></label>
-			<input type="text" class="form-control" id="mx_name_of_the_calc" name="mx_name_of_the_calc" value="<?php echo $data['calc_name']; ?>" required />	
-		</div>		
+			<input type="text" class="form-control" id="mx_name_of_the_calc" name="mx_name_of_the_calc" value="<?php echo $data['calc_name']; ?>" placeholder="Например: Калькулятор ремонта" required />	
+		</div>
+
+	</div>
+
+	<div class="mx-block_wrap_price">
+
+		<div class="form-group">
+			<label for="mx_name_of_the_calc">Валюта <span class="text-danger">*</span></label>
+			<input type="text" class="form-control" id="mx_currency_of_the_calc" name="mx_currency_of_the_calc" value="<?php echo $data['calc_currency']; ?>" placeholder="Например: $" required />	
+		</div>
 
 	</div>
 
@@ -60,7 +69,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 							<input type="text" name="mx_new_price_calc_item_name" class="mx_new_price_calc_item_name form-control mx-is_required" placeholder="Например: 1 м" value="<?php echo $value['item_name']; ?>" />
 							
 							<small class="form-text text-dark">Цена *</small>
-							<input type="text" name="mx_new_price_calc_item_price" class="mx_new_price_calc_item_price form-control mx-is_required mx-is_coordinates" placeholder="Например: 7" value="<?php echo $value['item_price']; ?>" />
+							<input type="number" step="0.01" name="mx_new_price_calc_item_price" class="mx_new_price_calc_item_price form-control mx-is_required mx-is_coordinates" placeholder="Например: 7" value="<?php echo $value['item_price']; ?>" />
 							
 						</div>
 
@@ -91,6 +100,17 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	</div>
 
 </form>
+
+<div class="mx-block_wrap_price">
+
+	<div class="form-group">
+		<h4>Шорткод для вставки:</h4>
+		<span class="mx-shordcode-calc">
+			[mxpctyw_price_calc]
+		</span>
+	</div>		
+
+</div>
 
 <!-- Variables for javascript with translation functions -->
 <?php include( 'components/js_vars.php' ); ?>

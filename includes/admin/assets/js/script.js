@@ -185,6 +185,8 @@ function mxpctyw_ajax_data( $, _this, action ) {
 
 	var calcName 			= $( '#mx_name_of_the_calc' ).val();
 
+	var calc_currency 			= $( '#mx_currency_of_the_calc' ).val();
+
 	var obj_price_calcs_elem 	= {};
 
 	// get data of price_calcs
@@ -220,7 +222,8 @@ function mxpctyw_ajax_data( $, _this, action ) {
 			'action'					: 	action,
 			'nonce'						: 	nonce,
 			'calc_name'					: 	calcName,
-			'obj_price_calcs_elem' 			: 	obj_price_calcs_elem
+			'calc_currency' 			: 	calc_currency,
+			'obj_price_calcs_elem' 		: 	obj_price_calcs_elem
 
 		};
 

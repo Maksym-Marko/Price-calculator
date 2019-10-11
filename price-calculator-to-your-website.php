@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Калькулятор цен на сайт
+Plugin Name: Price calculator to your website
 Plugin URI: https://github.com/Maxim-us/price-calculator-to-your-website
 Description: Калькулятор цен для Вашего сайта. Вы сможете настроить калькулятор цен для Ваших посетителей.
 Author: Marko Maksym
@@ -74,7 +74,7 @@ if ( ! defined( 'MXPCTYW_PLUGIN_ABS_PATH' ) ) {
 if ( ! defined( 'MXPCTYW_PLUGIN_VERSION' ) ) {
 
 	// version
-	define( 'MXPCTYW_PLUGIN_VERSION', time() ); // Must be replaced before production on for example '1.0'
+	define( 'MXPCTYW_PLUGIN_VERSION', '1.0' ); // Must be replaced before production on for example '1.0'
 
 }
 
