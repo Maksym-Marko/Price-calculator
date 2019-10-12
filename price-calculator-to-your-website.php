@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Price calculator to your website
-Plugin URI: https://github.com/Maxim-us/price-calculator-to-your-website
+Plugin Name: Калькулятор цен на сайт
+Plugin URI: https://github.com/Maxim-us/Price-calculator
 Description: Калькулятор цен для Вашего сайта. Вы сможете настроить калькулятор цен для Ваших посетителей.
 Author: Marko Maksym
 Version: 1.0
