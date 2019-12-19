@@ -112,5 +112,20 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 </div>
 
+<div class="mx-block_wrap_price" style="background: #e4f9e2;">
+
+	<div class="form-group">
+		<h4>Плагин полезен Вам?</h4>
+		<a href="https://wordpress.org/plugins/price-calculator-to-your-website/#reviews" target="_blank">Оставьте, пожалуйста, отзыв здесь</a> или <a href="https://wordpress.org/support/plugin/price-calculator-to-your-website/" target="_blank">напишите свои пожелания здесь</a>.
+
+		<br><br>
+		Также, заходите на мой сайт <a href="http://markomaksym.com.ua/ru/glavnaya/" target="_blank">markomaksym.com.ua</a>
+
+		<br><br>
+		<b>Спасибо, что используете плагин "Калькулятор цен на сайт". Мне приятно :)</b>
+	</div>		
+
+</div>
+
 <!-- Variables for javascript with translation functions -->
 <?php include( 'components/js_vars.php' ); ?>
